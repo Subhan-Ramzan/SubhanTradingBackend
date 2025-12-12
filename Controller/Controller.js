@@ -6,7 +6,7 @@ dotenv.config();
 const client = Binance({
   apiKey: process.env.BINANCE_KEY || "",
   apiSecret: process.env.BINANCE_SECRET || "",
-  httpBase: "https://testnet.binance.vision",
+  // httpBase: "https://testnet.binance.vision",
   recvWindow: 60000,
 });
 
